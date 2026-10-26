@@ -26,6 +26,10 @@ Restart Discord, then enable **AutoStream** in Settings → Vencord → Plugins.
 | Show toasts | On | Show a toast when a streamer is added to or removed from the closed list. |
 | Streamers kept closed | — | Lists closed streamers, with buttons to allow one again or clear the list. |
 
+## License
+
+[GPL-3.0-or-later](LICENSE), same as Vencord. Use it, fork it, change it.
+
 ## How a "close" is detected
 
 Discord fires the same close event when you leave a call, when a streamer ends their stream, or on reconnects. A close only counts as yours if, 1.5 seconds later, you're still in that channel, the streamer is still live, you haven't reopened it, and there was no reconnect, channel change or server-side stream end around it.

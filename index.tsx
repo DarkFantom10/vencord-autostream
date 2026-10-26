@@ -1,5 +1,7 @@
 /*
  * AutoStream — Vencord user plugin
+ * Copyright (c) 2026 DarkFantom10
+ * SPDX-License-Identifier: GPL-3.0-or-later
  *
  * 1. Auto-opens every Go Live stream in your current voice channel / call.
  * 2. Opens them without focusing (grid / "zoomed out" view stays as-is).
